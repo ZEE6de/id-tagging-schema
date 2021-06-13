@@ -2,10 +2,16 @@
     "icon": "temaki-freight_car",
     "fields": [
         "name",
-        "operator"
+        "operator",
+        "railway:yard:size",
+        "railway:yard:purpose",
+        "railway:yard:hump",
+        "image",
+        "start_date"  
     ],
     "moreFields": [
-        "gnis/feature_id"
+        "gnis/feature_id",
+        "ele"
     ],
     "geometry": [
         "point"
